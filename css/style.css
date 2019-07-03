@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #b3b1b1;
+}
+section{
+display: flex;
+position: relative;
+padding: 2em;
+margin: 5em auto;
+line-height: 1.5;
+font-weight: 400;
+width: 900px;
+height: 500px;
+background: #ddd;
+border-radius: 10px;
+background-image: url(../images/bg1.jpeg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow:5px 10px 5px rgba(0,0,0,0.7);
+}
+section:hover{
+transform: scale(1);
+transition: all 0.5s ease;
+}
+ul li{
+position: relative;
+padding-left: 5px;
+color: #fff;
+display: inline-block;
+}
+.one{
+position: absolute;
+height: 190px;
+width: 250px;
+margin: 0;
+left: 0;
+bottom: 0;
+}
+.one h1{
+font-size: 30px;
+font-weight: bold;
+color: #fff;
+}
+.one h1:hover{
+color: #18a5b3;
+transition: All 0.5s ease;
+}
+.two{
+position: absolute;
+height: 100px;
+width: 250px;
+margin: 0;
+bottom: 0;
+right: 0;
+}
+.two h2{
+font-size: 20px;
+}
+.two span{
+margin-left: 10px;
+}
+.two i:hover{
+transform: rotate(360deg);
+transition: all 0.5s;
+color: #18a5b3;
+}
+.three img{
+position: absolute;
+width: 200px;
+height: 200px;
+bottom: 0;
+padding-bottom: 15px;
+margin-left: 250px;
+}
+.three h3{
+color: #e6ac18;
+font-weight: 500;
+font-family: 'DM Serif Display', serif;
+text-shadow: rgba(0,0,0,0.7);
+}
+ul li:hover{
+color: #18a5b3;
+transition: All 0.5s ease;
+}
